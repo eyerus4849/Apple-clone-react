@@ -1,0 +1,10 @@
+.rate{
+    height: 200px;
+}
+.rate-up{
+    background-color: rgb(47, 47, 131);
+}
+.rate-down{
+    background-color: red;
+    margin-left: 20px;
+}

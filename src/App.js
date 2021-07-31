@@ -1,24 +1,31 @@
+import React, { Component } from "react";
 import logo from './logo.svg';
+import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
-
+import Header from './components/header/Header'
+import Main from './components/main/Main'
+import Footer from './components/footer/Footer'
+import Iphones from './pages/Iphone'
+import Errorpage from './pages/Errorpage'
+import Productdetail from './pages/Productdetail';
+import Headerbootstrap from './components/header/Headerbootstrap'
+import Footerreact from "./components/footer/Footerreact";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      {/* <Header/> */}
+      <Headerbootstrap/>
+    <Switch>
+    <Route path="/" exact component={Main}/>
+     
+    <Route path="/iphone" exact component={Iphones}/>
+    <Route path="/iphone/:pid" exact component={Productdetail} />
+    <Route path="/" component={Errorpage}/>
+    </Switch>
+    <Footerreact/>
+    {/* <Footer/> */}
+  </Router>
+   
   );
 }
 

@@ -1,0 +1,16 @@
+AIzaSyBs9Y1jW5UUp3to_cwG04giPiS3LTBaE4w  youtoube api for applereact
+
+AIzaSyC8jNnLZTm-d7iXOnO9sMJrojVKsHQGi7Q new YOUR_API_KEY
+
+https://www.googleapis.com/youtube/v3/search?key={YOUR_API_KEY}&channelId={channel_id_here}&part=snippet,id&order=date&maxResults=10   
+
+https://www.googleapis.com/youtube/v3/channels?key={YOUR_API_KEY}&forUsername={CHANNEL_NAME}&part=id
+
+https://www.googleapis.com/youtube/v3/channels?key=AIzaSyBs9Y1jW5UUp3to_cwG04giPiS3LTBaE4w&forUsername=Apple&part=id
+
+
+UCE_M8A5yxnLfW0KghEeajjw   apple channel id
+
+https://www.googleapis.com/youtube/v3/search?key=AIzaSyBs9Y1jW5UUp3to_cwG04giPiS3LTBaE4w&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=10 
+
+https://www.googleapis.com/youtube/v3/search?key=AIzaSyC8jNnLZTm-d7iXOnO9sMJrojVKsHQGi7Q&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=10 
